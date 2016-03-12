@@ -1,0 +1,62 @@
+#the square root of 69 is 8 something
+cups = 69**.5
+theRose = float
+#(is) cups of (type) theRose
+print(type(cups) == theRose)
+
+myOldPhone = {"b***h", "b***h", "b***h"}
+#(are) "b*****s" in myOldPhone
+print("b***h" in myOldPhone)
+
+def one():
+	return "then go home"
+#call one
+print("I should", one())
+
+#python3 doesn't have longs, but this is "casting"
+iveBeenInThisClub = 2
+def long(x):
+	print(str(x) + "L")
+#iveBeenInThisClub (casted) to(o) long
+long(iveBeenInThisClub)
+
+#theWoman (that I should) try
+def theWoman():
+	raise Exception("that I would try")
+try:
+	theWoman()
+except:
+	print("is happy with a good guy")
+
+
+def her():
+	print("and say f**k that n****r that you love so bad")
+iveBeenDrinkingSoMuch = True
+#iveBeenDrinkingSoMuch (is True)
+if (iveBeenDrinkingSoMuch):
+	#(so ima) call her (anyway)
+	her()
+
+#current exact time, my bday:age
+we = ["4:40:31", "3:27:18"]
+youStill = "think about"
+we = []
+def iKnow(thinkAbout):
+	return thinkAbout == True
+if (iKnow(youStill)):
+	#(we is empty now so there are just) times we had
+	print([time for time in we])
+
+#think you.found (because it won't be found in the string)
+you = "i said f**k that ______"
+if (you.find("n****h") < 0):
+	print(False)
+
+#you pick up
+x = ""
+while (x != "UP"):
+	x = input("pick a direction (hint: ↑)").upper()
+print("and since you picked up")
+heIsNotA = 4.16
+iKnow(round(heIsNotA))
+
